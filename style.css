@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  max-width: 100%;
+  font-family: "Outfit", sans-serif;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(217, 54%, 11%);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  height: 600px;
+  width: 350px;
+  border-radius: 1rem;
+  background-color: hsl(216, 50%, 16%);
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  padding: 20px;
+}
+.top {
+  min-height: 300px;
+  max-width: 100%;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.bottom h2 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 22px;
+  padding-block: 20px;
+  font-family: "Outfit", sans-serif;
+}
+.bottom p {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  line-height: 1.2rem;
+  font-family: "Outfit", sans-serif;
+}
+.info .info-left-img {
+  height: 18px;
+  width: 10px;
+}
+.info .info-img img {
+  height: 100%;
+  width: 100%;
+}
+.info .info-right-img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.info .info-right-img img {
+  height: 100%;
+  width: 100%;
+}
+.footer .footer-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid hsl(0, 0%, 100%);
+}
+.footer .footer-img img {
+  height: 100%;
+  width: 100%;
+}
+.info .info-left h4 {
+  color: hsl(178, 100%, 50%);
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1.2rem;
+}
+.info .info-left,
+.info-right {
+  display: flex;
+  gap: 10px;
+}
+.info .info-right h4 {
+  color: hsl(215, 51%, 70%);
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+.bottom {
+  border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+.footer {
+  padding-block: 10px;
+  display: flex;
+  align-items: center;
+}
+.footer h5 {
+  padding-left: 20px;
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+}
+.footer h5 span {
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+}
